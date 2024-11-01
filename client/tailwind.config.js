@@ -6,7 +6,7 @@ export default {
   ],
   theme: {
     extend: {
-      colors:{'primary':"#000000"}
+      colors:{'primary':"#5f6FFF"}
     },
   },
   plugins: [],

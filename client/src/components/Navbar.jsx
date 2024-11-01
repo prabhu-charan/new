@@ -13,7 +13,7 @@ const Navbar = () => {
                 <hr className='border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden' />
             </NavLink>
             <NavLink to='/item'>
-                <li className='py-1'>All Items</li>
+                <li className='py-1'>Results</li>
                 <hr className='border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden' />
             </NavLink>
             <NavLink to='/about'>
@@ -26,7 +26,7 @@ const Navbar = () => {
             </NavLink>
         </ul>
         <div className='flex items-center gap-4' >
-            <button onClick={()=>navigate('/login')} className='bg-primary text-white px-8 py-3 rounded-full font-light hidden md:block' >Create  Account</button>
+            <button onClick={()=>navigate('/login')} className='bg-primary text-white px-8 py-3 rounded-full font-light hidden md:block' >Login</button>
         </div>
     </div>
   )
